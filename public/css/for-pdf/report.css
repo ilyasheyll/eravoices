@@ -1,0 +1,48 @@
+body {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 12px;
+}
+
+.report {
+    padding: 0 40px;
+}
+
+.report__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 100%;
+    white-space: nowrap;
+    /* margin-bottom: 20px; */
+}
+
+.report__title-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.report__header {
+    margin-bottom: 20px;
+}
+
+.report__table th, 
+.report__table td {
+    padding: 4px;
+    border: 1px solid #000;
+}
+
+#results_label {
+    font-weight: 700;
+    text-align: right;
+}
+
+.report__date {
+    margin: 8px 0 12px 0;
+}
+
+.report__singature {
+    display: inline-block;
+}
+
+.report__singature + .report__singature {
+    margin-left: 16px;
+}

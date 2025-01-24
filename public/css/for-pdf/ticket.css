@@ -1,0 +1,29 @@
+body {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 14px;
+}
+
+.ticket__img {
+    width: 200px;
+    height: 200px;
+}
+
+.ticket {
+    position: relative;
+}
+
+.ticket__text {
+    position: absolute;
+    top: 17px;
+    left: 200px;
+}
+
+.ticket__event {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.ticket__data-item + .ticket__data-item {
+    margin-top: 4px;
+}
