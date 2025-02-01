@@ -5,6 +5,6 @@ namespace App\Http\Controllers;
 class ConflictController
 {
     public function index() {
-        return 'clone project';
+        return 'it is clone project';
     }
 }
