@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 class ConflictController
 {
-    public function method1() {
+    public function method() {
         return true;
     }
 }
